@@ -5,4 +5,5 @@ fn main() {
     println!("I'm a Rustacean!");
 
     formated_prints::test();
+    primi
 }

@@ -1,4 +1,3 @@
-workspace = { members = ["src/formated_print.rs"] }
 [package]
 name = "rust_by_examples"
 version = "0.1.0"

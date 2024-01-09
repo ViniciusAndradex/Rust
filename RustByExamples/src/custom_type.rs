@@ -17,5 +17,7 @@ type troquei = EstruturaBizarraDeNomeGigantesco;
 
 fn types() {
     let x = troquei::Teste2;
-
+    //constantes
+    const C:i32 = 26;
+    static X:u32 = 15;
 }

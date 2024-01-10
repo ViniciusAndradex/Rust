@@ -1,5 +1,6 @@
 mod variables;
-mod basic_types;
+mod numbers;
+mod char_bool_unit;
 
 fn main() {
     println!("Hello, world!");

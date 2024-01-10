@@ -90,7 +90,7 @@ fn nine() {
     assert!(sum == -5);
 
     for c in 'a'..='z' {
-        println!("{}",c);
+        println!("{}",c as u8);
     }
 }
 

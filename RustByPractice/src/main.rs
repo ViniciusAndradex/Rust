@@ -9,6 +9,7 @@ mod strings;
 mod array;
 mod slice;
 mod tuple;
+mod r#structs
 
 fn main() {
     println!("Hello, world!");

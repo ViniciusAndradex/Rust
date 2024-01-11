@@ -8,6 +8,7 @@ mod borrowing;
 mod strings;
 mod array;
 mod slice;
+mod tuple;
 
 fn main() {
     println!("Hello, world!");

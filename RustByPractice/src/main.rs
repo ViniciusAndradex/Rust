@@ -6,6 +6,7 @@ mod functions;
 mod ownership;
 mod borrowing;
 mod strings;
+mod array;
 
 fn main() {
     println!("Hello, world!");

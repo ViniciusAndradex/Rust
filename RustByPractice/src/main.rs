@@ -12,6 +12,7 @@ mod tuple;
 mod structs;
 mod enums;
 mod flow_control;
+mod match_pattern;
 
 fn main() {
     println!("Hello, world!");

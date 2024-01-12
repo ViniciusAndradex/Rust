@@ -11,6 +11,7 @@ mod slice;
 mod tuple;
 mod structs;
 mod enums;
+mod flow_control;
 
 fn main() {
     println!("Hello, world!");

@@ -13,6 +13,7 @@ mod structs;
 mod enums;
 mod flow_control;
 mod match_pattern;
+mod pattern_match;
 
 fn main() {
     println!("Hello, world!");

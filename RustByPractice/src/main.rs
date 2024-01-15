@@ -14,6 +14,8 @@ mod enums;
 mod flow_control;
 mod match_pattern;
 mod pattern_match;
+mod methods_association_functions;
+
 
 fn main() {
     println!("Hello, world!");

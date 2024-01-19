@@ -16,7 +16,7 @@ fn main() {
 
     // Recover Errors, panic!
 
-    let greeting_file = File::open("hello_world.txt").unwrap_or_else(|error| match error.kind() { // Tratamento de erro
+    let greeting_file = File::open("hello_world.txt").unwrap_or_else(0|error| match error.kind() { // Tratamento de erro
         ErrorKind::NotFound => match File::create("hello_world.txt") {
             Ok(file) => file,
             Err(error) => panic!("Problem creating the file: {:?}", error),

@@ -1,3 +1,4 @@
+workspace = { members = ["RustBook", "rust_book"] }
 [package]
 name = "rust_by_examples"
 version = "0.1.0"
